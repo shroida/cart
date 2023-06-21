@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone 13",
+    "price": 799,
+    "imageUrl": "/ImagesProducts/Apple-iPhone-13.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S21 Ultra",
+    "price": 1199,
+    "imageUrl": "/ImagesProducts/Samsung Galaxy S21 Ultra.png"
+  },
+  {
+    "id": 3,
+    "name": "Google Pixel 6 Pro",
+    "price": 899,
+    "imageUrl": "/ImagesProducts/Google Pixel 6 Pro.jpg"
+  },
+  {
+    "id": 4,
+    "name": "OnePlus 9 Pro",
+    "price": 969,
+    "imageUrl": "/ImagesProducts/OnePlus 9 Pro.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Xiaomi Mi 11 Ultra",
+    "price": 1199,
+    "imageUrl": "/ImagesProducts/Xiaomi Mi 11 Ultra.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Sony Xperia 1 III",
+    "price": 1299,
+    "imageUrl": "/ImagesProducts/Sony Xperia 1 III.jpg"
+  },
+  {
+    "id": 7,
+    "name": "LG Velvet",
+    "price": 499,
+    "imageUrl": "/ImagesProducts/LG Velvet.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Motorola Moto G Stylus 5G",
+    "price": 399,
+    "imageUrl": "/ImagesProducts/Motorola Moto G Stylus 5G.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Nokia X20",
+    "price": 449,
+    "imageUrl": "/ImagesProducts/Nokia X20.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Asus Zenfone 8",
+    "price": 599,
+    "imageUrl": "/ImagesProducts/Asus Zenfone 8.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Apple iPhone 13",
+    "price": 799,
+    "imageUrl": "/ImagesProducts/Apple-iPhone-13.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S21 Ultra",
+    "price": 1199,
+    "imageUrl": "/ImagesProducts/Samsung Galaxy S21 Ultra.png"
+  },
+  {
+    "id": 3,
+    "name": "Google Pixel 6 Pro",
+    "price": 899,
+    "imageUrl": "/ImagesProducts/Google Pixel 6 Pro.jpg"
+  },
+  {
+    "id": 4,
+    "name": "OnePlus 9 Pro",
+    "price": 969,
+    "imageUrl": "/ImagesProducts/OnePlus 9 Pro.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Xiaomi Mi 11 Ultra",
+    "price": 1199,
+    "imageUrl": "/ImagesProducts/Xiaomi Mi 11 Ultra.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Sony Xperia 1 III",
+    "price": 1299,
+    "imageUrl": "/ImagesProducts/Sony Xperia 1 III.jpg"
+  },
+  {
+    "id": 7,
+    "name": "LG Velvet",
+    "price": 499,
+    "imageUrl": "/ImagesProducts/LG Velvet.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Motorola Moto G Stylus 5G",
+    "price": 399,
+    "imageUrl": "/ImagesProducts/Motorola Moto G Stylus 5G.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Nokia X20",
+    "price": 449,
+    "imageUrl": "/ImagesProducts/Nokia X20.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Asus Zenfone 8",
+    "price": 599,
+    "imageUrl": "/ImagesProducts/Asus Zenfone 8.jpg"
+  }
+]

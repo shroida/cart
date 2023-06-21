@@ -1,0 +1,23 @@
+.shopping-container {
+  display: flex;
+  align-items: center;
+}
+
+.shopping-container img {
+  width: 125px;
+  height: 75px;
+  object-fit: cover;
+  padding: 0 10px 0 0;
+}
+.name-item-cart {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+.me {
+  margin: auto;
+}
+.rem-btn-cart {
+  width: 10%;
+  font-size: 20px;
+  background-color: #9a0000;
+}
