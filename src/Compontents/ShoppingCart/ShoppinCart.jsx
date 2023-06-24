@@ -20,7 +20,7 @@ const ShoppinCart = ({ isOpen }) => {
 
                         <CartItem key={item.id} {...item} />
                     ))}
-                    <h4>{formatCurrency(
+                    <h4>Total {formatCurrency(
                         cartItems.reduce(
                             (total, cartItem) => {
                                 const item = ProductsItems.find((i) => i.id === cartItem.id)

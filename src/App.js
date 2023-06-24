@@ -16,6 +16,9 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </ShoppingCartProvider>
+      <footer>
+        <p>&copy; 2023 My Phone Store</p>
+      </footer>
     </>
   );
 }

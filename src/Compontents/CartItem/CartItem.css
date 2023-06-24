@@ -19,5 +19,5 @@
 .rem-btn-cart {
   width: 10%;
   font-size: 20px;
-  background-color: #9a0000;
+  background-color: var(--color-danger);
 }
