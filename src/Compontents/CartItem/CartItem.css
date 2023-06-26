@@ -16,8 +16,3 @@
 .me {
   margin: auto;
 }
-.rem-btn-cart {
-  width: 10%;
-  font-size: 20px;
-  background-color: var(--color-danger);
-}

@@ -11,10 +11,9 @@ const Store = () => {
   const { currTime } = useShoppingCart()
   return (
     <div>
-      <h1 className='clock'>{currTime}</h1>
-
-      <h1>Store Product</h1>
-      <div className="container1">
+      <h1 className='clock'> Save your {currTime} with us</h1>
+      <h1 className="store-h">STORE PRODUCT</h1>
+      <div className="container">
         {ProductsItems.slice(0, numToShow).map((item) => {
           return (
             <div className="card-container" key={item.id}>

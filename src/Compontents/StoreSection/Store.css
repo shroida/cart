@@ -1,79 +1,21 @@
-.container1 {
-  display: flex;
+.container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-
-  grid-gap: 1rem;
-  justify-items: center;
-  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  gap: 1.8rem;
+  grid-template-columns: repeat(3, 3fr);
 }
-
-h1 {
+.store-h {
   text-align: center;
-  padding: 1rem;
   font-size: 5rem;
-  font-weight: 500;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
+  margin: 1rem;
 }
 .btn-show {
-  margin: 2rem 0;
-  display: inline-block;
-  background-color: #0d6efd;
+  width: 10%;
+  font-size: 25px;
+  background-color: var(--color-primary-varint);
   color: #fff;
-  padding: 10px 20px;
+  border-radius: var(---border-radius-2);
   border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-}
-
-.btn-show:hover {
-  background-color: #6f42c1;
-}
-
-/* Media queries for responsive design */
-@media screen and (max-width: 767px) {
-  /* For screens smaller than 768px */
-
-  .container1 {
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 2rem;
-  }
-  .card-a {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    height: 500px;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    overflow: hidden;
-  }
-  .card-image {
-    height: 400px;
-    width: 400px;
-  }
-
-  .card-name {
-    margin: 0.5rem;
-    font-size: 1.25rem;
-  }
-
-  .card-price {
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
-  }
-
-  .card-button {
-    margin: 0.5rem;
-    padding: 0.25rem;
-    font-size: 0.85rem;
-  }
+  margin: 2rem;
 }

@@ -1,16 +1,16 @@
-.container1 {
+.container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
 }
-.card-a {
+.card {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  height: fit-content;
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
+  margin: 0 auto;
+  width: 80%;
   padding: 2rem;
 }
 
@@ -38,13 +38,17 @@
   padding: 0.2rem 0.7rem;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   font-size: 20px;
-  color: #fff;
+  color: #000000;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
-
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
 .card-button:hover {
   transform: translateY(-2px);
   background-color: #ffc107;
@@ -56,12 +60,20 @@
   flex-direction: column;
   gap: 20px;
 }
-.btns {
-  display: flex;
-  flex-direction: row;
-}
+
 .rem-btn {
   width: 100%;
-  font-size: 20px;
+  font-size: 25px;
   background-color: #9a0000;
+  color: #fff;
+  border-radius: var(---border-radius-2);
+  border: none;
+}
+.card-button-add {
+  width: 100%;
+  font-size: 25px;
+  background-color: var(--color-primary-varint);
+  color: #fff;
+  border-radius: var(---border-radius-2);
+  border: none;
 }

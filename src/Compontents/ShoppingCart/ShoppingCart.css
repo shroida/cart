@@ -20,11 +20,21 @@
 .close-btn {
   background-color: var(--color-danger);
   color: #000;
-
+  width: 3.2rem;
+  height: 3.2rem;
+  border: none;
   border-radius: 50%;
 }
 .show img {
   border-radius: 20%;
+}
+.rem-btn-cart {
+  border-radius: 50%;
+  width: 2.2rem;
+  height: 2.2rem;
+  font-size: 20px;
+  border: none;
+  background-color: var(--color-danger);
 }
 @media screen and (max-width: 767px) {
   .show {

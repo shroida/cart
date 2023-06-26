@@ -9,7 +9,7 @@ const ProductItem = ({ id, price, name, imageUrl }) => {
   return (
     <>
 
-      <div className="card-a ">
+      <div className="card ">
         <img
           className="card-image"
           src={imageUrl}
@@ -21,7 +21,7 @@ const ProductItem = ({ id, price, name, imageUrl }) => {
             <span className="card-name">{name}</span>
             <span className="card-price">{formatCurrency(price)}</span>
           </div>
-          {quantity === 0 ? (<button onClick={() => increaseCartQuantity(id)}>Add to cart</button>)
+          {quantity === 0 ? (<button className="card-button-add" onClick={() => increaseCartQuantity(id)}>Add to cart</button>)
 
             : <div >
               <div className="btns">
