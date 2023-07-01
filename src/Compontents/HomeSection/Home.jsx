@@ -14,7 +14,7 @@ function Home() {
           <div className="marquee">
             {ProductsItems.map((item) => {
 
-              return <div className="marquee-item">
+              return <div className="marquee-item" key={item.id}>
 
 
                 <img src={item.imageUrl} alt={item.name} />

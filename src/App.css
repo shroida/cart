@@ -152,6 +152,15 @@ h5 {
     box-shadow: 1rem 3rem 4rem var(--color-light);
     animation: displayMenu 400ms ease forwards;
   }
+  .marquee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 400px;
+    display: flex;
+    animation: marquee 10s linear infinite;
+  }
   @keyframes displayMenu {
     to {
       left: 0;
